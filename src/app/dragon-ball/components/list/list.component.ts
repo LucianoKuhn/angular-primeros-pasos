@@ -23,7 +23,6 @@ export class ListComponent {
   onDeleteEmit(id?: string):void {
 
     if(!id) return; //! si no le paso ID entonces retorna y no devuelve nada.
-    console.log(id);
     this.onDeleteCharacter.emit(id);
     
 

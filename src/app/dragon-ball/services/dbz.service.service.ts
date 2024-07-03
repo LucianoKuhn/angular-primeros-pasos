@@ -32,7 +32,7 @@ export class DbzService {
   }
 
   deleteCharacterById(id:string):void{
-   
+ 
       //! regresamos un nuevo arreglo con los personajes que no coincidan con el id pasado.
       this.characters = this.characters.filter( character => character.id !== id)
   }
